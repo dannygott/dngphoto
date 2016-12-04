@@ -1,0 +1,73 @@
+html{
+
+}
+
+
+body {
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.subs{
+  color: white;
+  margin-top: 5px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 2vw;
+  font-family: 'Ailerons';
+}
+.submain{
+  position: fixed;
+  margin-left: 30px;
+
+}
+
+.tytle{
+  position: relative;
+  color: white;
+  font-size:8vw;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: 'Ailerons';
+}
+
+.lower{
+  background-color: white;
+  color: white;
+  z-index: 10000;
+  margin-top: 100vw;
+  position: relative;
+}
+
+.fullscreen{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(/images/portimg1.jpg);
+    background-size:100% 100vh;
+    background-repeat: no-repeat;
+
+ }
+
+
+@font-face {
+    font-family: 'Ailerons';
+    src:url('Ailerons.ttf.woff') format('woff'),
+        url('Ailerons.ttf.svg#Ailerons') format('svg'),
+        url('Ailerons.ttf.eot'),
+        url('Ailerons.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.smll{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
