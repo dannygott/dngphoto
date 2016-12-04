@@ -13,12 +13,33 @@ a {
 }
 .subs{
   color: white;
-  margin-top: 5px;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  font-size: 2vw;
+  font-family: 'Ailerons';
+  background-color:rgba(0, 0, 0, 0);
+  border: 0;
+}
+.subs:focus {outline:0;}
+.subspace{
+  color: white;
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 2vw;
   font-family: 'Ailerons';
+  background-color:rgba(0, 0, 0, 0);
+  border: 0;
+}
+.subs:hover{
+  background-color:rgba(184, 50, 130, 0.5);
+  -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
 }
 .submain{
   position: fixed;
@@ -31,7 +52,7 @@ a {
   color: white;
   font-size:8vw;
   margin-top: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-family: 'Ailerons';
 }
 
@@ -68,6 +89,11 @@ a {
 }
 .smll{
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.ourworks{
+
 }

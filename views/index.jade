@@ -2,36 +2,36 @@ extends layout
 
 block content
   link(href='themes/4/js-image-slider.css', rel='stylesheet', type='text/css')
-
+  script(src="http://code.jquery.com/jquery-1.7.1.min.js")
   script(src='themes/4/js-image-slider.js', type='text/javascript')
-
+  script(src='/javascripts/main.js', type='text/javascript')
   link(href='generic.css', rel='stylesheet', type='text/css')
 
   div.fullscreen
     div.submain
       h1.tytle DNG PHOTOGRAPHY
-      div
-        a.subs Our Works
-        p.subs |
-        a.subs Who We Are
-        p.subs |
-        a.subs Contact
+      div(style = "padding-left: 20px;")
+        button(onclick = "scroll('.ourworks', 1000)").subs Our Works
+        p.subspace |
+        button.subs Who We Are
+        p.subspace |
+        button.subs Contact
   div.lower
-    h1(style = "font-family: 'Ailerons'; text-align:center; font-size:10vw; color:black; padding-top:50px;") our works
+    h1(style = "font-family: 'Ailerons'; text-align:center; font-size:10vw; color:black; padding-top:100px;").ourworks our works
     center
-      img(src="images/smll15.jpg" height=550).smll
-      img(src="images/smll2.jpg" height=550).smll
-      img(src="images/smll3.jpg" height=550).smll
-      img(src="images/smll4.jpg" height=550).smll
-      img(src="images/smll5.jpg" height=550).smll
-      img(src="images/smll6.jpg" height=550).smll
-      img(src="images/smll7.jpg" height=550).smll
-      img(src="images/smll8.jpg" height=550).smll
-      img(src="images/smll9.jpg" height=550).smll
-      img(src="images/smll10.jpg" height=550).smll
-      img(src="images/smll11.jpg" height=550).smll
-      img(src="images/smll12.jpg" height=550).smll
-      img(src="images/smll13.jpg" height=550).smll
-      img(src="images/smll14.jpg" height=550).smll
+      img(src="images/smll15.jpg" height=200).smll
+      img(src="images/smll2.jpg" height=200).smll
+      img(src="images/smll3.jpg" height=200).smll
+      img(src="images/smll4.jpg" height=200).smll
+      img(src="images/smll5.jpg" height=200).smll
+      img(src="images/smll6.jpg" height=200).smll
+      img(src="images/smll7.jpg" height=200).smll
+      img(src="images/smll8.jpg" height=200).smll
+      img(src="images/smll9.jpg" height=200).smll
+      img(src="images/smll10.jpg" height=200).smll
+      img(src="images/smll11.jpg" height=200).smll
+      img(src="images/smll12.jpg" height=200).smll
+      img(src="images/smll13.jpg" height=200).smll
+      img(src="images/smll14.jpg" height=200).smll
 
     p(style = " padding-bottom:10000px;") ;slkfjsd;fklsjdf;sdkjf
