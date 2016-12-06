@@ -80,10 +80,10 @@ transition: all 500ms ease;
 
 @font-face {
     font-family: 'Ailerons';
-    src:url('Ailerons.ttf.woff') format('woff'),
-        url('Ailerons.ttf.svg#Ailerons') format('svg'),
-        url('Ailerons.ttf.eot'),
-        url('Ailerons.ttf.eot?#iefix') format('embedded-opentype');
+    src:url('/images/Ailerons.ttf.woff') format('woff'),
+        url('/images/Ailerons.ttf.svg#Ailerons') format('svg'),
+        url('/images/Ailerons.ttf.eot'),
+        url('/images/Ailerons.ttf.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
