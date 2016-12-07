@@ -11,7 +11,7 @@ block content
         p.subspace |
         button(onclick = "scroll('.whowe', 900)").subs Who We Are
         p.subspace |
-        button.subs Contact
+        button(onclick = "scroll('.contact', 700)").subs Contact
   div.lower
     h1(style = "font-family: 'Ailerons'; text-align:center; font-size:10vw; color:black; padding-top:100px;").ourworks our works
     center
@@ -41,5 +41,17 @@ block content
           h2( style= " color:black; font-size:3vw;") Colin Bonner
       div(style = " margin-left:100px; margin-right:100px; background-color:#B8B8B8; padding:10px;")
         p(style= " color:black; line-height: 50px; font-size:2vw;").
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim aliquam placerat. Proin sit amet venenatis justo. Morbi lacinia sem non gravida convallis. Integer pellentesque sit amet ante et egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sit amet porta dui. Nam elementum, quam in dapibus gravida, purus tellus laoreet tellus, nec viverra enim justo a lorem. Fusce pretium, magna in aliquet cursus, turpis turpis gravida tortor, a vehicula est leo vel eros. Praesent rhoncus nulla est. Phasellus at tellus odio. Aliquam aliquet nunc cursus, suscipit libero at, volutpat ligula.
-            Curabitur fringilla aliquam facilisis. Ut ullamcorper eleifend porta. Morbi at dolor neque. Nunc sed nisi augue. Ut tellus nisi, faucibus cursus vestibulum eget, dictum vitae justo. Nullam ut orci ac justo posuere vehicula a eu lorem. Donec egestas nunc at mi ultrices varius. Sed nec magna eu quam pharetra ultricies eget vitae est. Maecenas velit nisi, tristique non massa nec, placerat imperdiet quam. Donec quis porta sapien.
+            DNG is a small group featuring two primary photographers, along with a few minute contributors, based out of northern Delaware. Daniel Gott, has been shooting for the past five years. He specializes in shooting landscapes and urban areas, whether these urban areas are a representation of an abandoned structure suffering from the erosions of time or modern architecture. Colin’s preferred medium is analog, shooting in medium format. He has recently made the transition to a digital Sony a7r and shoots a wide variety of scenes. The pictured above images are either shot by one of these to or both in collaboration.
+    h1(style = "font-family: 'Ailerons'; text-align:center; font-size:10vw; color:black; padding-top:100px;").contact contact
+    div.divform
+          form(action="action_page.php")
+            label(for="fname") First Name
+            input#fname(type="text", name="firstname")
+            label(for="lname") Last Name
+            input#lname(type="text", name="lastname")
+            label(for="country") State
+            select#country(name="country")
+              option(value="australia") Australia
+              option(value="canada") Canada
+              option(value="usa") USA
+            input(type="submit", value="Submit")
