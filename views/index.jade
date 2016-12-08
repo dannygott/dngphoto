@@ -43,15 +43,16 @@ block content
         p(style= " color:black; line-height: 50px; font-size:2vw;").
             DNG photography is a small group featuring two primary photographers, along with a few minute contributors, based out of northern Delaware. Danny Gott, has been shooting for the past five years. He specializes in shooting landscapes and urban areas, whether these urban areas are a representation of an abandoned structure suffering from the erosions of time or modern architecture. Colin’s preferred medium is analog photography, in medium format, however he also presus interest in digital photography. He enjoys shooting abstract, preferably low light long exposure photography in order to contrast between the night sky and structures. The above images are either shot by one of these two or both in collaboration.
     h1(style = "font-family: 'Ailerons'; text-align:center; font-size:10vw; color:black; padding-top:100px;").contact contact
-    div.divform
-          form(action="action_page.php")
+    div(style = "color:black").divform
+          form
             label(for="fname") First Name
             input#fname(type="text", name="firstname")
             label(for="lname") Last Name
             input#lname(type="text", name="lastname")
             label(for="country") State
             select#country(name="country")
+              option(value="usa") USA
               option(value="australia") Australia
               option(value="canada") Canada
-              option(value="usa") USA
+
             input(type="submit", value="Submit")
