@@ -136,8 +136,9 @@ transition: all 500ms ease;
 }
 .profiletext{
   display: inline-block;
-  margin-left: 10%;
-  margin-right: 10%;
+  align-self: center;
+  margin-left: 2%;
+  margin-right: 3%;
   color: white;
 }
 
@@ -174,4 +175,42 @@ input[type=submit]:hover {
 }
 .contact{
 
+}
+.bubble
+{
+position: relative;
+width: 750px;
+height: 120px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.bubble:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 15px 15px;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -15px;
+top: -15px;
+left: 51%;
+}
+.descrip{
+  display: inline-block;
+  background-color: #DCDFE8;
+  font-size: 1.5vw;
+  border-radius: 10px;
+  color: black;
+  text-align-last:center;
+  padding: 2%;
+  vertical-align: top;
+  white-space: pre-wrap;
+  width: 50%;
 }
